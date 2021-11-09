@@ -1,17 +1,30 @@
 # cryptoverse-backend
 
 Please refer the below link to see the working of the application live.
+
 FrontEnd - https://cryptoverse-ui.herokuapp.com/
+
 Backend - https://crypto-verse-swet.herokuapp.com/crypto/
 
 API Details:
-1. https://crypto-verse-swet.herokuapp.com/crypto/price (POST request)
-Input: List of coins, exchanges and currencies to find the prices.
-Output: Map of Exchanges and Currencies of each coin.
 
-2. https://crypto-verse-swet.herokuapp.com/crypto/price (POST request)
-Input:  List of coins, exchanges and currencies to find the prices.
-Output: List of all the coin details to buy and sell on correspoding Exchanges.
+1. https://crypto-verse-swet.herokuapp.com/crypto/price (POST request)
+
+- Getting the prices of each coins in corresponding exchanges.
+
+**Input**: List of coins, exchanges and currencies to find the prices.
+
+**Output**: Map of Exchanges and Currencies of each coin.
+
+
+2. https://crypto-verse-swet.herokuapp.com/crypto/recommendations (POST request)
+
+- Getting the recommmendations to buy and sell coins on what exchanges.
+
+**Input**:  List of coins, exchanges and currencies to find the prices.
+
+**Output**: List of all the coin details to buy and sell on correspoding Exchanges.
+
 
 ## 1. Are there any sub-optimal choices( or short cuts taken due to limited time ) in your implementation?
 - There are many places where optimization can be made related to performance, code readability or redundancy, scalability which have been mentioned in the Code itself as comments.
