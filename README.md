@@ -1,6 +1,18 @@
 # cryptoverse-backend
 
-Please refer the below link to see the working of the application live.
+## Follow the below commands to run the application:
+
+Build the project (Make sure you are in the "cryptoverse-backend" directory): mvn clean install
+
+Run the project: java -jar target/CryptoCompare-0.0.1-SNAPSHOT.jar
+
+Default Port = 8080
+
+To run on different port: java -jar -Dserver.port=<PORT> target/CryptoCompare-0.0.1-SNAPSHOT.jar
+  
+
+  
+## Please refer the below link to see the working of the application live.
 
 FrontEnd - https://cryptoverse-ui.herokuapp.com/
 
