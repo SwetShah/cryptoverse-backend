@@ -31,6 +31,12 @@ public class CryptoController {
 
 	private CryptoService cryptoService;
 
+	@GetMapping
+	public ResponseEntity<String> health() {
+	    return ResponseEntity.ok("Crypto backend is UP");
+	}
+
+
 	/*
 	 * 
 	 * 
